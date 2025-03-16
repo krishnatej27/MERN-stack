@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript</title>
+</head>
+<body>
+  <button class="one" 
+  onclick="console.log(`quantity:${c}`)" >
+    show quantity
+  </button>
+  <button onclick="
+  c=c+1;
+  console.log(`quantity:${c}`)">
+    add to cart
+  </button>
+  <button onclick="
+  c=c+2;
+  console.log(`quantity:${c}`)">
+    +2
+  </button>
+  <button onclick="
+  c=c+3;
+  console.log(`quantity:${c}`)">
+    +3
+  </button>
+  <button onclick="
+  c=0;
+  console.log(`quantity:${c}`)">
+    reset
+  </button>
+
+  <button onclick="
+  const randomNumber=Math.random();
+  if(randomNumber >=0 && randomNumber<= 1/3){
+    console.log('Rock win')
+  }
+  else{
+    console.log('computer choose paper and won')
+  }
+  ">
+    Rock
+  </button>
+  <button onclick="
+  const randomNumber=Math.random();
+  if(randomNumber >=1/3 && randomNumber<= 2/3){
+    console.log('paper win')
+  }
+  else{
+    console.log('computer choose scissor and won')
+  }
+  ">
+    paper
+  </button>
+  <button onclick="
+  const randomNumber=Math.random();
+  if(randomNumber >=2/3 && randomNumber<= 1){
+    console.log('scissor win')
+  }
+  else{
+    console.log('computer choose rock and won')
+  }
+  ">
+    scissor
+  </button>
+  <script>
+   // alert('hello')
+  let c=0;
+  </script>
+</body>
+</html>
