@@ -1,0 +1,104 @@
+.uber {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+.amazon {
+    background-color: rgb(255, 216, 20);
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 50px;
+}
+.gihub {
+    background-color: rgb(46, 164, 79);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.bootstrap {
+    background-color: rgb(121, 82, 179);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.bootstrap2{
+    background-color: white;
+    color: rgb(108, 117, 125);
+    border-color: rgb(108, 117, 125);
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.linkdln {
+    background-color: rgb(10, 102, 194);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.linkdln2 {
+    background-color: white;
+    color: rgb(10, 102, 194);
+    /* border: 1px solid rgb(10, 102, 194); */
+    border-color: rgb(10, 102, 194);
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 50px; /* Fully curved (pill-shaped) border */
+    /* box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); */
+    /* transition: background-color 0.3s, color 0.3s; */
+    display: flex;
+}
+
+.linkdln2:hover,.bootstrap2:hover{
+    background-color: rgb(230, 230, 230);
+}
+.btn{
+    background-color: rgb(255, 216, 20);
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 20px
+}
+.btn2{
+    background-color: rgb(255, 164, 28);
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 50px;
+}
+/* .col{ */
+    /* color: green; */
+/* } */
