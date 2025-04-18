@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Interactive Counter</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f4f8;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .counter-container {
+      background: white;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    #display {
+      font-size: 48px;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 18px;
+      margin: 0 10px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    #increment {
+      background-color: #4caf50;
+      color: white;
+    }
+
+    #decrement {
+      background-color: #f44336;
+      color: white;
+    }
+
+    button:hover {
+      opacity: 0.9;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="counter-container">
+    <div id="display">0</div>
+    <button id="increment">Increment</button>
+    <button id="decrement">Decrement</button>
+  </div>
+
+  <script>
+    let counter = 0;
+    const display = document.getElementById('display');
+
+    document.getElementById('increment').addEventListener('click', function() {
+      counter++;
+      display.textContent = counter;
+    });
+
+    document.getElementById('decrement').addEventListener('click', function() {
+      if (counter > 0) {
+        counter--;
+        display.textContent = counter;
+      }
+    });
+  </script>
+
+</body>
+</html>
