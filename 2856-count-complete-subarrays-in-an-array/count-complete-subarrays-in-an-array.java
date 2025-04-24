@@ -13,8 +13,8 @@ class Solution {
             for (int j = i; j < n; j++) {
                 windowSet.add(nums[j]);
                 if (windowSet.size() == totalDistinct) {
-                    count += n - j;
-                    break;
+                    count ++;
+                    //break;
                 }
             }
         }
