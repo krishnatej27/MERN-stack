@@ -24,11 +24,9 @@ class Solution {
         ListNode slow=head;
         ListNode fast=head;
         ListNode temp=head;
-        int c=0;
         while(fast!=null && fast.next!=null){
             fast=fast.next.next;
             slow=slow.next;
-            c++;
         }
         ListNode rev=reverse(slow);
         ListNode revh=rev;
